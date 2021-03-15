@@ -1,5 +1,5 @@
 pkgname=pandoc
-pkgver=2.11.4
+pkgver=2.12
 pkgrel=1
 pkgdesc='The universal markup converter.'
 arch=('x86_64')
@@ -9,7 +9,7 @@ depends=()
 makedepends=()
 source=("https://github.com/jgm/pandoc/releases/download/${pkgver}/pandoc-${pkgver}-linux-amd64.tar.gz")
 noextract=("pandoc-${pkgver}-linux-amd64.tar.gz")
-md5sums=('1cda207d739952ad5d93246ae448664e')
+md5sums=('66bcfb989cab7b86665693b505c57f11')
 
 src_name="pandoc-${pkgver}"
 
