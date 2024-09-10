@@ -1,5 +1,5 @@
 pkgname=pandoc
-pkgver=3.3
+pkgver=3.4
 pkgrel=1
 pkgdesc='The universal markup converter (haskell free).'
 url='https://pandoc.org'
@@ -8,8 +8,8 @@ arch=('x86_64')
 depends=('texlive-core')
 source=("https://github.com/jgm/pandoc/releases/download/${pkgver}/pandoc-${pkgver}-linux-amd64.tar.gz"
         "https://github.com/jgm/pandoc/archive/${pkgver}.tar.gz")
-sha256sums=('0c97d03e85a65b366fb1ccd9db32a80c10eebae6e1dc36ee58458f5294d58556'
-            '7025e32e9cce7cbde9f43afedbf34f16b37fd71b96626752fd18425ae67baef7')
+sha256sums=('f6f46cc61abf3bacb0bf612f4d80b586625c10cf64a4b456853fd358cb4c7319'
+            '7885c3aa2426142fb6b9d0157c2bf8484a6d560e62aac29bce51bf0b581ba259')
 
 package() {
 	cd "${pkgname}-${pkgver}"
