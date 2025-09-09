@@ -16,7 +16,7 @@ package() {
 
     # To avoid having to download over a gigabyte of haskell makedepends (400-ish for ghc, plus 750 in libs), we
     # just yoink the binary from static compiled binary distributed by pandoc:
-    install -Dm755 -t "${pkgdir}/usr/bin" 'bin/*'
+    install -Dm755 -t "${pkgdir}/usr/bin" bin/*
     cp -a share "${pkgdir}/usr/share"
 
     # We're still missing all the datafiles and so on. We get those from the source tarball...
